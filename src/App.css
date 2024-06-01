@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.w-36 {
+  width: 36.625rem;
+}
+
+.w-22 {
+  width: 36.625rem;
+}
+
+.p-22 {
+  padding: 22px;
+}
+
+.navBarFontStyle .ant-select-selector {
+  font-weight: 400;
+  font-size: 16px;
+  color: #5a5a62;
+  font-family: sans-serif;
+  padding: 0;
+}
+
+.custom-badge .ant-badge-dot {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  transform: translate(50%, 50%);
+}
+
+.ant-input:focus {
+  border-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-tabs .ant-tabs-tab {
+  padding-bottom: 10px; 
+}
+
+.custom-tabs .ant-tabs-ink-bar {
+  margin-top: 5px; 
+}
+
+.ant-select-selection-selected-value {
+  color: blue !important;
+}
+
+.select-padding-zero .ant-select-selector {
+  padding: 0;
+}
+
+.tab-font .ant-tabs-tab-btn{
+  font-size: 18px;
+  /* font-family:INTER */
+  font-family: sans-serif;
+}
+
+.border-blue{
+  border-color: "#F3F4F7";
+}
+
