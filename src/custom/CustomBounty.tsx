@@ -16,7 +16,7 @@ const CustomBounty: FC<bountyProps> = (props) => {
         <div className="flex flex-col w-full gap-4 flex-wrap ">
           <div><span className="font-semibold text-[20px]">{title}</span> <span className="font-normal text-[14px] text-light-blue">by</span><span className="font-semibold text-[20px] text-light-blue"> {organiserName}</span></div>
           <div className="flex gap-2 ">
-            {prize &&
+            {prize?.amount != 0 &&
               <>
                 <div className="flex gap-1 mr-2 items-center">
                   <img src={token} />

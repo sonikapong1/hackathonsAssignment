@@ -88,6 +88,7 @@ const WorkHistory = () => {
           dropdownStyle={{ color: 'green' }}
           mode="multiple"
           placeholder="All"
+          maxTagTextLength={200}
         />
       </div>
     </div>,

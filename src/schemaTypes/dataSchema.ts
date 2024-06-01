@@ -21,3 +21,4 @@ export type BountyData = {
   NumberOfParticipants?: number;
   key: number
 }
+

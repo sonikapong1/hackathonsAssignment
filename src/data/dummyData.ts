@@ -20,8 +20,8 @@ export const bountyData = [
     title: "Armada UI/ UX Review",
     organiserName: "Dean's List Dao",
     date: '21/03/2023',
-    prize: null,
-    rank: null,
+    prize: { amount: 0, currency: '' },
+    rank: "",
     tags: [{
       name: 'Design',
       color: 'text-purple',
@@ -86,10 +86,13 @@ export const reviewData = [
         name: 'Content',
         color: "text-blue",
         bgColor: "bg-light-blue",
-        
+
       }],
     NumberOfParticipants: 36,
-    key: 1
+    key: 1,
+    prize: { amount: 0, currency: '' },
+    rank: "",
+
   },
   {
     icon: image2,
@@ -102,7 +105,9 @@ export const reviewData = [
       bgColor: "bg-ligt-purple"
     }],
     NumberOfParticipants: 7,
-    key: 2
+    key: 2,
+    prize: { amount: 0, currency: '' },
+    rank: "",
   },
   {
     icon: image1,
@@ -115,7 +120,9 @@ export const reviewData = [
       bgColor: "bg-ligt-purple"
     }],
     NumberOfParticipants: 20,
-    key: 3
+    key: 3,
+    prize: { amount: 0, currency: '' },
+    rank: "",
   },
   {
     icon: image3,
@@ -140,6 +147,8 @@ export const reviewData = [
       }
     ],
     NumberOfParticipants: 12,
-    key: 4
+    key: 4,
+    prize: { amount: 0, currency: '' },
+    rank: "",
   },
 ];
