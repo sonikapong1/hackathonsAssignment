@@ -55,7 +55,6 @@ body {
 
 .tab-font .ant-tabs-tab-btn{
   font-size: 18px;
-  /* font-family:INTER */
   font-family: sans-serif;
 }
 
@@ -63,3 +62,18 @@ body {
   border-color: "#F3F4F7";
 }
 
+.input-container {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

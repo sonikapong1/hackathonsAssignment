@@ -57,7 +57,6 @@ const WorkHistory = () => {
   ];
   const onChange = (key: string) => {
     setActiveTab(key)
-    console.log(key);
   };
 
   const handleSelect = (selectedValue: string[]) => {

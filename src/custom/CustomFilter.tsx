@@ -9,10 +9,10 @@ const CustomFilter = () => {
     value: 0
   }]
   return (
-    <div className="flex gap-2 ">
+    <div className="flex gap-2 input-container">
       <CustomSelect option={filterOption} />
-      <div className="w-[1px]  bg-light-grey" />
-      <Input placeholder="Search an userOp" className="border-none " />
+      <div className="w-[1px]  bg-light-grey " />
+      <Input placeholder="Search an userOp" className="border-none" />
     </div>
   );
 }

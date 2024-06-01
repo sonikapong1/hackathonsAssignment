@@ -17,10 +17,10 @@ const Navbar = () => {
     <div className="h-full">
       <div className="w-full  h-[80px] flex items-center   ">
         <div className="  flex h-full w-full  pl-[11.25rem] pr-[11.25rem] mt-[1.375rem] mb-[1.375rem] items-center">
-          <div className=" h-[2.25rem] w-[12.125rem]">
+          <div className="w-[12.125rem]">
             <img src={icon} alt="logo" />
           </div>
-          <div className="flex items-center ml-[3.375rem] mr-[4rem] w-[35.5rem] gap-[2rem]">
+          <div className="flex items-center ml-[3.375rem] mr-[4rem] w-[40.5rem] md:gap-[0.5rem] gap-[2rem] md:ml-[1rem] md:mr-[1rem]">
             <div className="flex-wrap text-[16px] text-primary font-normal" >Home</div>
             {navBarMenu?.map((item) => <CustomSelect
               option={[

@@ -10,7 +10,7 @@ const CustomBounty: FC<bountyProps> = (props) => {
   const { icon, title, organiserName, prize, rank, tags, date, NumberOfParticipants } = props.data;
 
   return (
-    <div className=" h-[116px] flex  items-center justify-between w-full hover:bg-slate-200 ">
+    <div className=" h-[116px] flex  items-center justify-between  hover:bg-slate-200 ">
       <div className="flex justify-center items-center gap-3 ml-[32px]">
         <img src={icon} />
         <div className="flex flex-col w-full gap-4 flex-wrap ">
